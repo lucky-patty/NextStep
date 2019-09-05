@@ -1,0 +1,33 @@
+/* .container{
+
+}
+.left{
+  float: left;
+  width: 20%;
+  min-height: 100%;
+  height: 100%;
+  margin-top: 150px;
+  /* background-color: red; */
+}
+/*
+.main{
+  float: left;
+  width: 70%;
+  min-height: 100%;
+  height: 100%;
+
+} */
+#aboutContainer{
+  width: 60%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+
+#aboutContent{
+  height: 9rem;
+  margin-top: 350px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+}
