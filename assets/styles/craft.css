@@ -1,0 +1,49 @@
+.craftContainer{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.craftContent{
+  text-align:center;
+}
+
+#head{
+  margin-top: 50px;
+  margin-right: 450px;
+}
+
+#subject{
+  height:200px;
+  width: 60%;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+#textContainer{
+  display: relative;
+  width: 100%;
+}
+
+#textBelow1{
+  width: 44%;
+  float: left;
+  overflow: hidden;
+}
+
+#textBelow2{
+  /* margin-left: 200px; */
+  width: 56%;
+  float: left;
+  overflow: hidden;
+}
+#submit{
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 40px;
+  font-size: 2.5em;
+}
