@@ -2,12 +2,13 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!-- Link Google Material Icons -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 	 <!-- Link CSS File -->
-    <link rel="stylesheet" href="nextstepmain.css">
+    <link rel="stylesheet" href="../assets/styles/nextstepmain.css">
+		<link rel="stylesheet" href="../assets/styles/craft.css">
 
      <!-- Import jQuery Library -->
     <script
@@ -21,20 +22,26 @@
 </head>
 <body>
 
-	<h2>Tell us who you are</h2>
-	<p>This is not required to be your real name</p>
-
+	<div class="container">
+	<h2>Say something about yourself</h2>
+	<!-- <p>This is not required to be your real name</p> -->
+	<div>
 	<form action="nextstepmain.html" method="GET">
 
-  <label for="fname">Your name</label>
-  <input type="text" id="fname" name="fname">
-  <label for="lname">Who are you</label>
-  <input type="text" id="lname" name="lname">
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
+  	<label for="fname">NAME</label>
 
-</form>
+			<input type="text" id="fname" name="fname">
 
+			<label for="lname">I AM</label>
+
+			<input type="text" id="lname" name="lname">
+
+			<div class="row">
+				<input type="submit" value="Submit">
+  		</div>
+
+	</form>
+	</div>
+	</div>
 </body>
 </html>
