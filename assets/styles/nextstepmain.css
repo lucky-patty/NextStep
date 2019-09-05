@@ -109,8 +109,10 @@ body,html{
 	margin-top: 35px;
 }
 #aboutLogo{
-	height: 50%;
-	width: 50%;
+	height: 40%;
+	width: 40%;
+	margin-left: 40px;
+	margin-top: 45px;
 }
 #topRight{
 	height: 50%;
