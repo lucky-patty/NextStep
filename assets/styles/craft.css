@@ -27,14 +27,15 @@
 }
 
 #textBelow1{
-  width: 44%;
+  margin-left: 20px;
+  width: 40%;
   float: left;
   overflow: hidden;
 }
 
 #textBelow2{
-  /* margin-left: 200px; */
-  width: 56%;
+  margin-left: 75px;
+  width: 50%;
   float: left;
   overflow: hidden;
 }
