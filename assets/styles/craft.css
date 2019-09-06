@@ -8,10 +8,23 @@
   text-align:center;
 }
 
+.inputNameField{
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 20px;
+}
+
+.nameTag{
+  margin-top: 20px;
+}
+
 #head{
   margin-top: 50px;
   margin-right: 450px;
 }
+
 
 #subject{
   height:200px;
@@ -48,4 +61,10 @@
   background-color: transparent;
   margin-top: 40px;
   font-size: 2.5em;
+}
+
+
+#formName{
+  display: inline-block;
+  margin-left: 350px;
 }

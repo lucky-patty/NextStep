@@ -25,21 +25,18 @@
 	<div class="container">
 	<h2>Say something about yourself</h2>
 	<!-- <p>This is not required to be your real name</p> -->
-	<div>
+
+	<div id="formName">
 	<form action="nextstepmain.html" method="GET">
-
-  	<label for="fname">NAME</label>
-
-			<input type="text" id="fname" name="fname">
-
-			<label for="lname">I AM</label>
-
-			<input type="text" id="lname" name="lname">
-
+		<label class="nameTag" for="fname">NAME</label>
+		<br>
+			<input class="inputNameField" type="text" id="fname" name="fname">
+			<label class="nameTag" for="lname">I AM</label>
+		<br>
+			<input class="inputNameField" type="text" id="lname" name="lname">
 			<div class="row">
-				<input type="submit" value="Submit">
+				<input id="submit" type="submit" value="POST">
   		</div>
-
 	</form>
 	</div>
 	</div>
