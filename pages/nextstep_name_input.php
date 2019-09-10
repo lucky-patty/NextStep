@@ -1,3 +1,15 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$databasename = "nextstep";
+
+// Create connection
+$conn = mysqli_connect($servername,$username,$password,$databasename)
+or die("Error Connection: ".mysqli_connect_error());
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>

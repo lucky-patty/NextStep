@@ -1,3 +1,23 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$databasename = "nextstep";
+
+// Create connection
+$conn = mysqli_connect($servername,$username,$password,$databasename)
+or die("Error Connection: ".mysqli_connect_error());
+
+// Get All Data
+
+$query = "SELECT * FROM Message";
+mysql_query($conn,$query) or die('Error querying database');
+
+// Put data in the div "later"
+
+// Close connection
+mysqli_close($conn);
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

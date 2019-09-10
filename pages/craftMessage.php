@@ -31,7 +31,7 @@
 				<p>WRITE SOMETHING</p>
 			</div>
 			<!-- <p><strong>Something to write about:</strong>What is gender Equality to you, personal experience, respond to sexual harassment, personal message to empower gender equality & why is gender equality important to you.</p> -->
- 			<form action="nextstep_name_input.html" method="GET">
+ 			<form action="nextstep_name_input.html" method="POST">
  				<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
 				<!-- <p><strong>Something to write about:</strong>What is gender Equality to you, personal experience, respond to sexual harassment, personal message to empower gender equality & why is gender equality important to you.</p> -->
 				<div id="textContainer">
