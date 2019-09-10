@@ -1,0 +1,34 @@
+.mainContainer{
+  /* display: flex; */
+  background-color: #000F4D;
+  width: 100%;
+  height: 100vh;
+}
+
+.text{
+  color: white;
+}
+
+.main{
+  margin-left: 45px;
+}
+
+.header{
+  margin-top: 25px;
+}
+
+#firstRow{
+  margin-top: 30px;
+}
+
+
+#introduce{
+  margin-left: 60px;
+}
+
+#message{
+  margin-top: 80px;
+}
+#lastSectionTitle{
+  margin-top: 70px;
+}
