@@ -7,16 +7,42 @@
 
 .text{
   color: white;
+  font-family: 'Avenir', san-serif;
 }
 
 .main{
   margin-left: 45px;
 }
 
+svg{
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 100px;
+  
+}
+
 .header{
   margin-top: 25px;
 }
 
+.quote{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: #FF2F71;
+  padding-top: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.lastPart{
+  margin-left: 45px;
+}
+
+#firstPart{
+  margin-left: 20px;
+}
 #firstRow{
   margin-top: 30px;
 }
@@ -28,7 +54,62 @@
 
 #message{
   margin-top: 80px;
+  margin-left: 40px;
 }
 #lastSectionTitle{
   margin-top: 70px;
+}
+
+h4.text{
+  font-size: 14px;
+  padding-left: 300px;
+  margin-top: -70px;
+  padding-right: -200px;
+  margin-right: -150px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  line-height: 150%;
+
+}
+
+h5.button{
+  color: white;
+  font-family: 'Avenir', san-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+#arrow{
+  margin-top: -40px;
+}
+
+.text{
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+h5.text author{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+.line{
+  width: 300px;
+  height: 47px;
+  border-bottom: 1px solid #8E24FF;
+  position: absolute;
+  margin-top: -40px;
+}
+
+h6.text{
+  font-family: 'Avenir', san-serif;
+  font-size: 14px;
+  padding-bottom: -50px;
+  font-weight: lighter;
+  letter-spacing: 3px;
 }

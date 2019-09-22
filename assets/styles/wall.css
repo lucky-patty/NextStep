@@ -1,0 +1,283 @@
+.ContainerNeonPurple{
+  /* display: flex; */
+  background-color: #8700FF;
+  width: 100%;
+  height: 100vh;
+}
+
+.ContainerViolet{
+  /* display: flex; */
+  background-color: #8909A4;
+  width: 100%;
+  height: 100vh;
+}
+
+.ContainerGreen{
+  /* display: flex; */
+  background-color: #064D00;
+  width: 100%;
+  height: 100vh;
+}
+
+.ContainerLime{
+  /* display: flex; */
+  background-color: #6BFF2F;
+  width: 100%;
+  height: 100vh;
+}
+
+.ContainerEggPlant{
+  /* display: flex; */
+  background-color: #6BFF2F;
+  width: 100%;
+  height: 100vh;
+}
+
+.ContainerSky{
+  /* display: flex; */
+  background-color: #5ACDFF;
+  width: 100%;
+  height: 100vh;
+}
+
+.ContainerRed{
+  /* display: flex; */
+  background-color: #FF0000;
+  width: 100%;
+  height: 100vh;
+}
+
+
+/*Quote colour: neon pink*/
+.wallquote_neonpink{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #FF2F71;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+/*Quote colour: White/ Match with ContainerNeonPurple*/
+.wallquote_white{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+/*Quote colour: Yellow/ Match with ContainerViolet*/
+.wallquote_yellow{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #FFE42F;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+/*Quote colour: Neon Orange/ Match with ContainerGreen*/
+.wallquote_neonorange{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #FF2F35;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+/*Quote colour: Dark Blue/ Match with ContainerLime*/
+.wallquote_darkblue{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #000F4D;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+/*Quote colour: Cheddar cheese/ match with ContainerEggPlant*/
+.wallquote_cheddar{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #FF8827;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+/*Quote colour: Purple/ Match with ContainerSky*/
+.wallquote_purple{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #8E24FF;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+/*Quote colour: Sky blue/ Match with ContainerRed*/
+.wallquote_sky{
+  font-family: Arial Black, san-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-align: center;
+  color: #24DEFF;
+  padding-top: 230px;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+}
+
+#close_whitewall{
+  width: 3%;
+  float: right;
+  margin-top: 30px;
+  padding-right: 50px;
+}
+
+/*apply on all shuffle icon*/
+img.shuffle{
+	width: 3%;
+	float: right;
+	margin-right: -250px;
+	margin-top: 141px;
+}
+
+/*individual word colour*/
+h5.shuffle_pink{
+  font-family: 'Avenir', san-serif;
+  color: #FF2F71;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+h5.shuffle_white{
+  font-family: 'Avenir', san-serif;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+h5.shuffle_yellow{
+  font-family: 'Avenir', san-serif;
+  color: #FFE42F;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+h5.shuffle_neonorange{
+  font-family: 'Avenir', san-serif;
+  color: #FF2F35;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+h5.shuffle_darkblue{
+  font-family: 'Avenir', san-serif;
+  color: #000F4D;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+h5.shuffle_cheddar{
+  font-family: 'Avenir', san-serif;
+  color: #FF8827;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+h5.shuffle_purple{
+  font-family: 'Avenir', san-serif;
+  color: #8E24FF;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+h5.shuffle_sky{
+  font-family: 'Avenir', san-serif;
+  color: #24DEFF;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  float: right;
+  padding-left: 30px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+.shuffle_author{
+  color: white;
+  font-family: 'Avenir', san-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 50px;
+  letter-spacing: 3px;
+  padding-left: 600px;
+}
+

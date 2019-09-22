@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="backgroundMain">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,12 +20,16 @@
     <script src="nextstepmain.js"></script>
 	<title>About NextStep</title>
 </head>
-<body>
+<body >
 	<div class="container">
+	<a href="pages/mainPage.php">
+		<svg id="close_white" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs><title>close_white</title><line class="cls-1" x1="46.78" y1="46.78" x2="203.22" y2="203.22"/><line class="cls-1" x1="203.22" y1="46.78" x2="46.78" y2="203.22"/></svg>
+	</a>
+
 		<div class="column left">
-			<a href="../index.html">
-				<img id="aboutLogo" src="../assets/NS_icon.svg" alt="about"></img>
-			</a>
+			<div >
+				<img id="icon_blue" alt="icon_blue" src="../assets/NS_icon_blue.png">
+			</div>
  			<!-- <h1>About NextStep</h1> -->
 		</div>
 		<div class="column middle">

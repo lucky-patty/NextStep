@@ -7,7 +7,9 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 	 <!-- Link CSS File -->
-    <link rel="stylesheet" href="nextstepmain.css">
+	 <link rel="stylesheet" href="../assets/styles/wall.css">
+	 <link rel="stylesheet" href="../assets/styles/landingpage.css">
+    <link rel="stylesheet" href="../assets/styles/nextstepmain.css">
 
      <!-- Import jQuery Library -->
     <script
@@ -20,28 +22,23 @@
 
 	<title>NextStep Wall</title>
 </head>
-<body>
+<body class="mainContainer">
 
-	<a href="nextstepwall.html"> <i class="material-icons" style="font-size:48px;color:#EFE4F4;">view_day</i></a>
-	<a href="nextstepmessage.html"> <i class="material-icons" style="font-size:48px;color:#EFE4F4;">add_circle</i></a>
-
-	<h1>Without Grid</h1>
-	<div> 
-		<div>Hello Friend</div>
-		<div>Hello Friend 2 </div>
-		<div>Hello Friend 3</div>
-		<div>Hello Friend 4</div>
-		
+	<div>
+	<a href="pages/mainPage.php">
+		<svg id="close_whitewall" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs><title>close_white</title><line class="cls-1" x1="46.78" y1="46.78" x2="203.22" y2="203.22"/><line class="cls-1" x1="203.22" y1="46.78" x2="46.78" y2="203.22"/></svg>
+	</a>
 	</div>
-	<br/>
-	<h1>WIth Grid</h1>
-	<div class="grid-container">
-		<div class="grid-item">Hello Grid</div>
-		<div class="grid-item">Hello Grid 2</div>
-		<div class="grid-item">Hello Grid 3</div>
-		<div class="grid-item">Hello Grid 4 </div>
+	<div>
+	<h1 class="wallquote_neonpink">
+       	I experienced sexual harassment and it traumatised me, I scared to be judged
+         as a bitch when all I did was wearing skirt.
+    </h1>
+    <h5 class="shuffle_author">LALITA BANGKOK,TH</h5>
+    </div>
+    <a href="pages/mainPage.php"> <h5 class="shuffle_pink">SHOW ANOTHER</h5></a>
+    <img class="shuffle" src="../assets/shuffle_pink.png">
 
-	</div>
-
+  
 </body>
 </html>
