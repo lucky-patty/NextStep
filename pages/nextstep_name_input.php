@@ -69,7 +69,7 @@ $_SESSION['color'] = $color;
 					<div id="textBelow4">0/20</div>
 				</div>
 			<div class="row">
-				<input id="submitpost" type="submit" name="save" value="POST">
+				<input id="submitpost" type="submit" name="submit" value="POST">
 	  	</div>
 		</form>
 	</div>

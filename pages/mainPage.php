@@ -45,13 +45,14 @@ if (session_status() == PHP_SESSION_NONE) {
 $quote = $_SESSION['quote'];
 $color = $_SESSION['color'];
 
-$sql = "INSERT INTO users (id,name,title,quote,color) VALUES ('','".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
-if($conn->query($sql) === TRUE){
-  // echo "Successfully";
-}else{
-  // echo "Error: ",$conn->error;
+if(isset($_POST['submit'])){
+  $sql = "INSERT INTO users (id,name,title,quote,color) VALUES ('','".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
+  if($conn->query($sql) === TRUE){
+    // echo "Successfully";
+  }else{
+    // echo "Error: ",$conn->error;
+  }
 }
-
 
 
 //mysqli_close($conn);
