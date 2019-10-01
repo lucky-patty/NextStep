@@ -3,7 +3,11 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 $databasename = "nextstep";
-$port = 8889;
+// $username = "quhtoqvmszhemqka_nextstep";
+// $password = "1q2w3e4r!!!";
+// $databasname = "quhtoqvmszhemqka_nextstep";
+// $port = 8889;
+$port = 3307;
 // Create connection
 // $conn = mysqli_connect($servername,$username,$password,$databasename)
 // or die("Error Connection: ".mysqli_connect_error());
@@ -55,7 +59,7 @@ if(isset($_POST['submit'])){
     echo "Successfully";
   }else{
     echo "Error: ",$conn->error;
-  }  
+  }
 }
 
 
@@ -150,7 +154,7 @@ if(isset($_POST['submit'])){
           </div>
           <!-- Last Section -->
           <div class="lastPart">
-          
+
                <!-- Title -->
           <div id="lastSectionTitle" class="row">
             <div class="col-3 header col-s-3">
@@ -187,7 +191,7 @@ if(isset($_POST['submit'])){
               <div class="col-3 header col-s-3">
                 <a href="wall.php"><h6 class="text">All message</h6></a>
               </div>
-            
+
             </div>
         </div>
 

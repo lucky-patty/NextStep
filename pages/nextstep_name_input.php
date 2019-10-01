@@ -3,7 +3,8 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 $databasename = "nextstep";
-$port = 8889;
+// $port = 8889;
+$port = 3307;
 // Create connection
 // $conn = mysqli_connect($servername,$username,$password,$databasename)
 // or die("Error Connection: ".mysqli_connect_error());
