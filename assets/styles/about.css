@@ -1,0 +1,32 @@
+.mid{
+  width: 60%;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-flow: row wrap;
+  /* display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center; */
+  /* position: relative; */
+}
+#aboutContainer{
+  width: 60%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+
+#aboutContent{
+  color: white !important;
+  font-family: 'Avenir', san-serif;
+  font-weight: lighter;
+  text-align: center; 
+  height: 9rem;
+  display: flex;
+  align-content: flex-start;
+  padding-top: 500px;
+  margin-left: 200px;
+  margin-right: 30px;
+}

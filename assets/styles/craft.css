@@ -1,0 +1,157 @@
+.craftContainer{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#craftTitle{
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 60px;
+}
+
+#craftTitlemain{
+padding-top: 70px;
+  padding-left: 580px;
+  padding-bottom: 30px;
+}
+
+.nameTag{
+  font-family: 'Avenir', san-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 12pt;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+svg{
+  width: 2%;
+  float: right;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+h2{
+  font-family: 'Baskerville', serif;
+  font-weight: lighter;
+  font-size: 24pt;
+}
+
+.craftContent{
+  text-align:center;
+}
+
+.inputNameField{
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 0px;
+}
+
+#head{
+  font-family: 'Avenir', san-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 14pt;
+  margin-top: 50px;
+  margin-left: -630px;
+  margin-bottom: -20px;
+}
+
+
+#subject{
+  height:300px;
+  width: 60%;
+  font-size: 12px;
+  padding-top: 3px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+#textContainer{
+  display: relative;
+  width: 100%;
+}
+
+#textBelow1{
+  font-family: 'Avenir', san-serif;
+  font-size: 8pt;
+  width: 40%;
+  text-align: left;
+  overflow: hidden;
+  margin-left: 280px;
+  margin-top: 3px;
+}
+
+em{
+  font-weight: bold;
+  font: normal;
+}
+
+#textBelow2{
+  font-family: 'Avenir', san-serif;
+  font-size: 10pt;
+  margin-left: 75px;
+  width: 50%;
+  float: right;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: -55px;
+}
+
+#textBelow3{
+  font-family: 'Avenir', san-serif;
+  font-size: 8pt;
+  width: 40%;
+  text-align: left;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#textBelow4{
+  font-family: 'Avenir', san-serif;
+  font-size: 10pt;
+  margin-left: 75px;
+  width: 50%;
+  float: right;
+  overflow: hidden;
+  margin-top: -35px;
+  margin-right: -220px;
+}
+
+#submit{
+  font-family: 'Baskerville', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 100px;
+  font-size: 2.5em;
+}
+
+#submitpost{
+  font-family: 'Baskerville', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 250px;
+  font-size: 2.5em;
+  margin-left: 200px;
+}
+
+#formName{
+  display: inline-block;
+  margin-left: 450px;
+}
+
