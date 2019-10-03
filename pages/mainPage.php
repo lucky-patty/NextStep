@@ -3,7 +3,12 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 $databasename = "nextstep";
-$port = 8889;
+
+// $username = "quhtoqvmszhemqka_nextstep";
+// $password = "1q2w3e4r!!!";
+// $databasname = "quhtoqvmszhemqka_nextstep";
+// $port = 8889;
+$port = 3307;
 // Create connection
 // $conn = mysqli_connect($servername,$username,$password,$databasename)
 // or die("Error Connection: ".mysqli_connect_error());
@@ -42,15 +47,19 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-$quote = $_SESSION['quote'];
-$color = $_SESSION['color'];
-
 if(isset($_POST['submit'])){
-  $sql = "INSERT INTO users (id,name,title,quote,color) VALUES ('','".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
+  echo $_POST["fname"];
+  echo $_POST["lname"];
+  echo $quote;
+  echo $color;
+  $quote = $_SESSION['quote'];
+  $color = $_SESSION['color'];
+
+  $sql = "INSERT INTO users (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
   if($conn->query($sql) === TRUE){
-    // echo "Successfully";
+    echo "Successfully";
   }else{
-    // echo "Error: ",$conn->error;
+    echo "Error: ",$conn->error;
   }
 }
 
@@ -80,7 +89,7 @@ if(isset($_POST['submit'])){
           </div>
         </div>
         <!-- Message Section -->
-        <div class="container">
+        <div  id="messageSection" class="container">
           <div class="container-fluid row">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -120,6 +129,8 @@ if(isset($_POST['submit'])){
                 echo $row['quote'];
                 echo '</h1>';
                 echo '<h5 class="text author">';
+                echo $row['name'];
+                echo ',';
                 echo $row['title'];
                 echo '</h5>';
                 echo '</div>';
@@ -143,40 +154,44 @@ if(isset($_POST['submit'])){
           </div>
           <!-- Last Section -->
           <div class="lastPart">
-            <!-- Title -->
+
+               <!-- Title -->
           <div id="lastSectionTitle" class="row">
-            <div class="col-3 header bd-highlight">
+            <div class="col-3 header col-s-3">
               <h5 class="text">Get Start</h5>
               <div class="line"></div>
             </div>
-            <div class="col-3 header">
-              <h5 class="text">Sign Ups for newsletter</h5>
+            <div class="col-3 header col-s-3">
+              <h5 class="text">Contact</h5>
               <div class="line"></div>
             </div>
           </div>
             <!-- First Row Link  -->
             <div id="firstRow" class="row">
-              <div class="col-3 header">
+              <div class="col-3 header col-s-3">
                 <a href="about.php"><h6 class="text">About</h6></a>
               </div>
-              <div class="col-3 header">
-                <h6 class="text">Sign up to our newsletter to</h6>
+              <div class="col-3 header col-s-3">
+                <h6 class="text">Project by Lalita K</h6>
               </div>
             </div>
             <!-- Second Row Link -->
             <div class="row">
-              <div class="col-3 header">
+              <div class="col-3 header col-s-3">
                 <a href="craftMessage.php"><h6 class="text">Craft your message</h6></a>
               </div>
-              <div class="col-3 header">
-                <h6 class="text">Get all the latest update</h6>
+              <div class="col-3 header col-s-3">
+                <a href="mailto:lalita.kamolchanokkul@gmail.com">
+                <h6 class="text">Get in touch</h6>
+                </a>
               </div>
             </div>
             <!-- Last Row -->
             <div class="row">
-              <div class="col-3 header">
+              <div class="col-3 header col-s-3">
                 <a href="wall.php"><h6 class="text">All message</h6></a>
               </div>
+
             </div>
         </div>
 

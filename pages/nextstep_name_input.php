@@ -3,7 +3,11 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 $databasename = "nextstep";
-$port = 8889;
+// $username = "quhtoqvmszhemqka_nextstep";
+// $password = "1q2w3e4r!!!";
+// $databasname = "quhtoqvmszhemqka_nextstep";
+// $port = 8889;````````````````
+$port = 3307;
 // Create connection
 // $conn = mysqli_connect($servername,$username,$password,$databasename)
 // or die("Error Connection: ".mysqli_connect_error());
@@ -43,7 +47,7 @@ $_SESSION['color'] = $color;
 	<title>NextStep name input</title>
 </head>
 <body>
-	<a href="pages/mainPage.php">
+	<a href="mainPage.php">
 		<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.44 159.44"><defs><style>.cls-1{fill:#fff;stroke:#231f20;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style></defs><title>close_black</title><line class="cls-1" x1="1.5" y1="1.5" x2="157.94" y2="157.94"/><line class="cls-1" x1="157.94" y1="1.5" x2="1.5" y2="157.94"/></svg>
 	</a>
 
