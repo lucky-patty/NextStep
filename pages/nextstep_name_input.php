@@ -18,7 +18,7 @@ session_start();
 
 $_SESSION['quote'] = $_POST["subject"];
 echo $_SESSION['quote'];
-$color = rand(1,5);
+$color = rand(1,8);
 // $test = $GLOBALS['quote'];
 $quote =  $_SESSION['quote'];
 $_SESSION['color'] = $color;

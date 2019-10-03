@@ -1,3 +1,133 @@
-.green{
-
+.center{
+    text-align: center;
 }
+
+.oneBg{
+    background-color: #6BFF2F;
+    height: 100vh;
+}
+
+.subOne{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #000F4D;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.twoBg{
+    background-color: #000F4D;
+    height: 100vh;
+}
+
+.subTwo{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FF2F71;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.threeBg{
+    background-color: #8700FF;
+    height: 100vh;
+}
+
+.subThree{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.fourBg{
+    background-color: #5ACDFF;
+    height: 100vh;
+}
+
+.subFour{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #8E24FF;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.fiveBg{
+    background-color: #8909A4;
+    height: 100vh;
+}
+
+.subFive{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FFE42F;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.sixBg{
+    background-color: #FF0000;
+    height: 100vh;
+}
+
+.subSix{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #24DEFF;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.sevenBg{
+    background-color: #064D00;
+    width: 100%;
+    height: 100vh;
+}
+
+.subSeven{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FF2F35;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.eightBg{
+    background-color: #32113E;
+    height: 100vh;
+}
+
+.subEigth{
+    font-family: Arial Black, san-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FF8827;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.author{
+    margin-left: 250px;
+}
+
