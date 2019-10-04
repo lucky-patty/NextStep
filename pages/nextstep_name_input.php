@@ -1,13 +1,14 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$databasename = "nextstep";
-// $username = "quhtoqvmszhemqka_nextstep";
-// $password = "1q2w3e4r!!!";
-// $databasname = "quhtoqvmszhemqka_nextstep";
-// $port = 8889;````````````````
-$port = 3307;
+$servername = "lalita.design";
+// $username = "root";
+// $password = "root";
+// $databasename = "nextstep";
+// $servername = "lalita.design:3307";
+$username = "quhtoqvmszhemqka_nextstep";
+$password = "1q2w3e4r!!!";
+$databasname = "quhtoqvmszhemqka_nextstep";
+// $port = 8889;
+// $port = 3307;
 // Create connection
 // $conn = mysqli_connect($servername,$username,$password,$databasename)
 // or die("Error Connection: ".mysqli_connect_error());
