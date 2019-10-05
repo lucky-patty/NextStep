@@ -10,11 +10,13 @@
 .subOne{
     font-family: Arial Black, san-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30pt;
+    text-align: center;
     color: #000F4D;
-    padding-top: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
     margin-bottom: 30px;
 }
 
@@ -41,11 +43,13 @@
 .subThree{
     font-family: Arial Black, san-serif;
     font-weight: 900;
-    font-size: 50px;
-    color: #ffffff;
-    padding-top: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
+    font-size: 30pt;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
     margin-bottom: 30px;
 }
 
@@ -57,11 +61,13 @@
 .subFour{
     font-family: Arial Black, san-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30pt;
+    text-align: center;
     color: #8E24FF;
-    padding-top: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
     margin-bottom: 30px;
 }
 .fiveBg{
@@ -72,11 +78,13 @@
 .subFive{
     font-family: Arial Black, san-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30pt;
+    text-align: center;
     color: #FFE42F;
-    padding-top: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
     margin-bottom: 30px;
 }
 .sixBg{
@@ -87,11 +95,13 @@
 .subSix{
     font-family: Arial Black, san-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30pt;
+    text-align: center;
     color: #24DEFF;
-    padding-top: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
     margin-bottom: 30px;
 }
 
@@ -104,11 +114,13 @@
 .subSeven{
     font-family: Arial Black, san-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30pt;
+    text-align: center;
     color: #FF2F35;
-    padding-top: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
     margin-bottom: 30px;
 }
 .eightBg{
@@ -119,15 +131,23 @@
 .subEigth{
     font-family: Arial Black, san-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30pt;
+    text-align: center;
     color: #FF8827;
-    padding-top: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
+    padding-top: 230px;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
     margin-bottom: 30px;
 }
 
-.author{
-    margin-left: 250px;
+.shuffle_author{
+    color: white;
+    font-family: 'Avenir', san-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    padding-left: 600px;
 }
 
