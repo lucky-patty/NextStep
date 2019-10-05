@@ -1,5 +1,5 @@
 <?php
-$servername = "lalita.design";
+$servername = "localhost";
 // $username = "root";
 // $password = "root";
 // $databasename = "nextstep";
