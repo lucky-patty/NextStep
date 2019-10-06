@@ -60,7 +60,7 @@ $_SESSION['color'] = $color;
             </div>
             <div class="row align-self-center justify-content-center">
                 <div class="col-sm-auto">
-                    <form action="" method="POST"> 
+                    <form action="thankyou.php" method="POST"> 
                         <label class="nameTag" for="fname">NAME</label>
                         <br>
                         <input class="inputNameField" type="text" id="fname" name="fname">

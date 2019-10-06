@@ -62,7 +62,7 @@ src="jquery-3.4.1.min.js">
             <div class="col-sm-auto">
 			<!-- <p><strong>Something to write about:</strong>What is gender Equality to you, personal experience, respond to sexual harassment, personal message to empower gender equality & why is gender equality important to you.</p> -->
  			    <form action="mobile_name_input.php" method="POST">
-                 <textarea id="mobileCraftInput" name="quote" placeholder="Write something.."></textarea>
+                 <textarea id="mobileCraftInput" name="subject" placeholder="Write something.."></textarea>
             </div>
 				<!-- <p><strong>Something to write about:</strong>What is gender Equality to you, personal experience, respond to sexual harassment, personal message to empower gender equality & why is gender equality important to you.</p> -->
 				<div class="col-sm-auto">

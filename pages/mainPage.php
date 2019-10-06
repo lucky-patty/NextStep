@@ -8,7 +8,7 @@ $servername = "localhost";
 $username = "quhtoqvmszhemqka_nextstep";
 $password = "1q2w3e4r!!!";
 $databasname = "quhtoqvmszhemqka_nextstep";
-$port = 8889;
+// $port = 8889;
 // $port = 3307;
 // Create connection
 // $conn = mysqli_connect($servername,$username,$password,$databasename)
@@ -37,32 +37,32 @@ if ($conn->connect_error) {
 
 // $result = mysql_query("SELECT * FROM users");
 
-// $result = mysqli_query($conn,"SELECT * FROM users");
+$result = mysqli_query($conn,"SELECT * FROM users");
 
 
 // if($result === FALSE){
   // die('Query failed returning error: '.mysql_error());
 // }
 
-// if (session_status() == PHP_SESSION_NONE) {
-//     session_start();
-// }
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
-// if(isset($_POST['submit'])){
-//   echo $_POST["fname"];
-//   echo $_POST["lname"];
-//   echo $quote;
-//   echo $color;
-//   $quote = $_SESSION['quote'];
-//   $color = $_SESSION['color'];
+if(isset($_POST['submit'])){
+  echo $_POST["fname"];
+  echo $_POST["lname"];
+  echo $quote;
+  echo $color;
+  $quote = $_SESSION['quote'];
+  $color = $_SESSION['color'];
 
-//   $sql = "INSERT INTO users (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
-//   if($conn->query($sql) === TRUE){
-//     echo "Successfully";
-//   }else{
-//     echo "Error: ",$conn->error;
-//   }
-// }
+  $sql = "INSERT INTO users (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
+  if($conn->query($sql) === TRUE){
+    echo "Successfully";
+  }else{
+    echo "Error: ",$conn->error;
+  }
+}
 
 
 //mysqli_close($conn);
@@ -94,7 +94,7 @@ if ($conn->connect_error) {
           <div class="container-fluid row">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <!-- <div class="carousel-item active">
                   <div class="d-block w-100 text-center">
                     <h1 class="quote">
                       I experienced sexual harassment and it truamatise me, I scared
@@ -120,23 +120,23 @@ if ($conn->connect_error) {
                     </h1>
                     <h5 class="text author">NEEKO BANGKOK.TH</h5>
                 </div>
-                </div>
+                </div> -->
                 <?php
-                // while($row=mysqli_fetch_array($result))
-                // {
-                // echo '<div class="carousel-item">';
-                // echo '<div class="d-block w-100 text-center">';
-                // echo '<h1 class="quote">';
-                // echo $row['quote'];
-                // echo '</h1>';
-                // echo '<h5 class="text author">';
-                // echo $row['name'];
-                // echo ',';
-                // echo $row['title'];
-                // echo '</h5>';
-                // echo '</div>';
-                // echo '</div>';
-                // }
+                while($row=mysqli_fetch_array($result))
+                {
+                echo '<div class="carousel-item">';
+                echo '<div class="d-block w-100 text-center">';
+                echo '<h1 class="quote">';
+                echo $row['quote'];
+                echo '</h1>';
+                echo '<h5 class="text author">';
+                echo $row['name'];
+                echo ',';
+                echo $row['title'];
+                echo '</h5>';
+                echo '</div>';
+                echo '</div>';
+                }
                 ?>
               </div>
             </div>
