@@ -229,5 +229,39 @@ em{
   margin-right: -10px;
 }
 
+}
 
-  }
+.grid-container{
+  margin: auto; 
+  display: grid;
+  grid-template-rows: 100vh;
+}
+
+.grid-item{
+  display:flex;
+  align-items : center;
+  justify-content: center;
+}
+
+.mobileCraft{
+  margin: auto;
+}
+
+#mobileCraftInput{
+  height:300px !important; 
+  width: 700px !important;
+  font-size: 12px;
+  padding-top: 3px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.mobileSubText1{
+  font-family: 'Avenir', san-serif;
+  font-size: 6pt;
+}
+
+.mobileSubText2{
+  font-family: 'Avenir', san-serif;
+  font-size: 8pt;
+}
