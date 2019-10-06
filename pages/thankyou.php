@@ -20,15 +20,19 @@ if ($conn->connect_error) {
 
 // echo 'Connected to the database.<br>';
 
+
+$result = mysqli_query($conn,"SELECT * FROM users");
+
+
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
 if(isset($_POST['submit'])){
-  echo $_POST["fname"];
-  echo $_POST["lname"];
-  echo $quote;
-  echo $color;
+//   echo $_POST["fname"];
+//   echo $_POST["lname"];
+//   echo $quote;
+//   echo $color;
   $quote = $_SESSION['quote'];
   $color = $_SESSION['color'];
 
