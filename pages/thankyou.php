@@ -20,25 +20,25 @@ if ($conn->connect_error) {
 
 // echo 'Connected to the database.<br>';
 
-
-$result = mysqli_query($conn,"SELECT * FROM users");
-
+mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
+// $result = mysqli_query($conn,"SELECT * FROM users");
+// mysql_select_db($databasename);
 
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
 if(isset($_POST['submit'])){
-//   echo $_POST["fname"];
-//   echo $_POST["lname"];
-//   echo $quote;
-//   echo $color;
+  echo $_POST["fname"];
+  echo $_POST["lname"];
+  echo $quote;
+  echo $color;
   $quote = $_SESSION['quote'];
   $color = $_SESSION['color'];
 
-  $sql = "INSERT INTO users (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
+  $sql = "INSERT INTO `users` (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
   if($conn->query($sql) === TRUE){
-    echo "Successfully";
+    // echo "Successfully";
   }else{
     echo "Error: ",$conn->error;
   }

@@ -13,6 +13,7 @@ $conn = new mysqli($servername,$username,$password,$databasename);
 
 session_start();
 
+mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
 $_SESSION['quote'] = $_POST["subject"];
 // echo $_SESSION['quote'];
 $color = rand(1,8);

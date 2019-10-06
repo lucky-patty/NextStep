@@ -15,6 +15,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
+
 $query = 'SELECT * FROM users ORDER BY RAND() LIMIT 1';
 //$result = mysqli_query($conn,$query);
 $result = $conn->query($query);
@@ -22,6 +24,7 @@ $result = $conn->query($query);
 if($result === FALSE){
   die('Query failed returning error: '.mysql_error());
 }
+
 ?>
 
 <!DOCTYPE html>

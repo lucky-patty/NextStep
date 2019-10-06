@@ -1,11 +1,14 @@
 <?php
+
+// init_set("display_errors","1");
+// error_reporting(E_ALL);
 $servername = "localhost";
 // $username = "root";
 // $password = "root";
 // $databasename = "nextstep";
 // $servername = "lalita.design:3307";
 
-$username = "quhtoqvmszhemqka_nextstep";
+$username = "quhtoqvmszhemqka_developer";
 $password = "1q2w3e4r!!!";
 $databasname = "quhtoqvmszhemqka_nextstep";
 // $port = 8889;
@@ -16,54 +19,45 @@ $databasname = "quhtoqvmszhemqka_nextstep";
 
 
 $conn = new mysqli($servername,$username,$password,$databasename);
+
+// $conn = mysqli_connect();
+
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+}else{
+  // echo 'login successfully';
 }
-// $link = mysqli_init();
+mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
+$sql = "SELECT DATABASE()";
+if($test = $conn->query($sql)){
+  // echo 'IT WORK!';
+  $row = $test->fetch_row();
+  // printf('Default db is %s . \n',$row[0]);
+}else{
+  // echo 'SOME SHIT HAPPEN THAT WE DON"T KNOW';
+  echo "ERROR : $sql. ". mysql_error($conn);
+}
 
-// $conn =  mysqli_real_connect($link,$servername,$username,$password,$databasename,$port);
+$sql2 = "SELECT * FROM users";
 
-// mysql_select_db($databasename);
+// $result =  or trigger_error('QUERY FAIL : $sql - ERROR : '.mysqli_error(),E_USER_ERROR);
 
-// if (!$conn) {
-// die('ERROR: Unable to connect: ' .mysql_error());
-// }
+$result = $conn->query($sql2);
 
-// echo 'Connected to the database.<br>';
-
-
-// Get All Data
-
-// $result = mysql_query("SELECT * FROM users");
-
-$result = mysqli_query($conn,"SELECT * FROM users");
-
-
-// if($result === FALSE){
-  // die('Query failed returning error: '.mysql_error());
-// }
+if($result === FALSE){
+  echo'FAIL';
+  die(mysql_error($conn));
+}else{
+  // printf('IT WORK SHOW : %d \n',$result->num_rows);
+}
 
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-if(isset($_POST['submit'])){
-  echo $_POST["fname"];
-  echo $_POST["lname"];
-  echo $quote;
-  echo $color;
-  $quote = $_SESSION['quote'];
-  $color = $_SESSION['color'];
 
-  $sql = "INSERT INTO users (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
-  if($conn->query($sql) === TRUE){
-    echo "Successfully";
-  }else{
-    echo "Error: ",$conn->error;
-  }
-}
-
+$conn->close();
 
 //mysqli_close($conn);
 ?>
@@ -94,7 +88,7 @@ if(isset($_POST['submit'])){
           <div class="container-fluid row">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
-                <!-- <div class="carousel-item active">
+                <div class="carousel-item active">
                   <div class="d-block w-100 text-center">
                     <h1 class="quote">
                       I experienced sexual harassment and it truamatise me, I scared
@@ -120,7 +114,8 @@ if(isset($_POST['submit'])){
                     </h1>
                     <h5 class="text author">NEEKO BANGKOK.TH</h5>
                 </div>
-                </div> -->
+                </div>
+                
                 <?php
                 while($row=mysqli_fetch_array($result))
                 {
@@ -138,7 +133,9 @@ if(isset($_POST['submit'])){
                 echo '</div>';
                 }
                 ?>
-              </div>
+
+               
+              </div> 
             </div>
           <!-- <div class="col-12 header text-center">
             <h1 class="text quote">
