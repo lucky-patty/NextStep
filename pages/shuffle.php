@@ -91,7 +91,6 @@ if($result === FALSE){
         echo '</div>';
 
         echo '<div>';
-
         echo '<h1 class="subTwo">';
         echo $row['quote'];
         echo '</h1>';

@@ -48,14 +48,14 @@ src="jquery-3.4.1.min.js">
     <div class="container">
         <div class="row align-self-center justify-content-center">
 		    <div class="col-sm-auto">
-			    <h2 >Craft your message</h2>
+			    <h2 class="mobileHead">Craft your message</h2>
 		    </div>
         </div>
         <div class="row align-self-center justify-content-center">
             <!-- <div class="col-12 col-s-12 crafContent"> -->
                 <!-- <div id="head"> -->
             <div class="col-sm-auto">
-                        <p>WRITE SOMETHING</p>
+                <p class="mobilePleaceHolder">WRITE SOMETHING</p>
             </div>
         </div>
 		<div class="row align-self-center justify-content-center">
@@ -66,7 +66,7 @@ src="jquery-3.4.1.min.js">
             </div>
 				<!-- <p><strong>Something to write about:</strong>What is gender Equality to you, personal experience, respond to sexual harassment, personal message to empower gender equality & why is gender equality important to you.</p> -->
 				<div class="col-sm-auto">
-                    <div class="container">
+                   
                         <div class="row">
                             <div class="col-sm-10">
 					            <p class="mobileSubText1"><strong>Craft you message within these topic:</strong> What is gender equality to you/ Sexual harassment experience/ Respond to sexual harassment/ Personal message to empower gender equality</p>
@@ -75,13 +75,12 @@ src="jquery-3.4.1.min.js">
                                 <div class="mobileSubText2">0/120</div>
                             </div>
                         </div>
-                    </div> 
+                   
                 </div>
-
 		</div>
-		<div class="row align-self-center justify-content-center">
+		<div class="row ">
             <div class="col-sm-auto">
-                <input id="submit" type="submit" value="NEXT">
+                <input id="mobileNext" type="submit" value="NEXT">
             </div>
 		</div>
  		</form>

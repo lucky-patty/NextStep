@@ -248,8 +248,8 @@ em{
 }
 
 #mobileCraftInput{
-  height:300px !important; 
-  width: 700px !important;
+  height:30% ; 
+  width: 100% ;
   font-size: 12px;
   padding-top: 3px;
   box-sizing: border-box;
@@ -264,4 +264,70 @@ em{
 .mobileSubText2{
   font-family: 'Avenir', san-serif;
   font-size: 8pt;
+}
+
+.mobileHead{
+  font-family: 'Avenir', san-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 14pt;
+}
+
+.mobilePleaceHolder{
+  font-family: 'Avenir', san-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 14pt;
+}
+
+
+.mobileNext{
+  font-family: 'Baskerville', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 2.5em;
+  padding: 0px !important;
+}
+
+.mobileSaySomething{
+  font-family: 'Baskerville', serif;
+  font-weight: lighter;
+  font-size: 24pt;
+}
+
+.mobileNameSubmit{
+  font-family: 'Baskerville', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 2.5em;
+}
+
+.mobileInputName{
+  width: 100%;
+  height: 40%;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: none;
+  margin-top: 0px;
+}
+
+.mobileNameTag1{
+  font-family: 'Avenir', san-serif;
+  font-size: 8pt;
+}
+
+.mobileNameCount1{
+  font-family: 'Avenir', san-serif;
+  font-size: 7pt;
 }

@@ -56,32 +56,71 @@ $_SESSION['color'] = $color;
         <div class="container">
             <div class="row align-self-center justify-content-center">
                 <div class="col-sm-auto">
-                    <h2>Say something about Yourself</h2>
+                    <h2 class="mobileSaySomething">Say something about Yourself</h2>
                 </div>
             </div>
+
             <div class="row align-self-center justify-content-center">
                 <div class="col-sm-auto">
                     <form action="thankyou.php" method="POST"> 
                         <label class="nameTag" for="fname">NAME</label>
                         <br>
-                        <input class="inputNameField" type="text" id="fname" name="fname">
-                        <div id="textContainer">
-                                <div id="textBelow3">Just how do you want to be called</div>
-                                <div id="textBelow4">0/20</div>
-                            </div>
-                        <label class="nameTag" for="lname">I AM</label>
-                        <br>
-                        <input class="inputNameField" type="text" id="lname" name="lname">
-                        <div id="textContainer">
-                                <div id="textBelow3">who or what or where</div>
-                                <div id="textBelow4">0/20</div>
-                            </div>
-                        <div class="row">
-                            <input id="submitpost" type="submit" name="submit" value="POST">
-                    </form>
+                        <input class="mobileInputName" type="text" id="fname" name="fname">
                 </div>
             </div>
+            <div class="row align-self-center justify-content-center"> 
+                    <div class="col-sm-auto">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="mobileNameTag1">Just how do you want to be called</div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="mobileNameCount1">0/20</div>
+                            </div>
 
+                        </div>
+                    </div>
+            </div>        
+                        <!-- <div id="textContainer">
+                                <div id="textBelow3">Just how do you want to be called</div>
+                                <div id="textBelow4">0/20</div>
+                            </div> -->
+            <div class="row align-self-center justify-content-center"> 
+                    <div class="col-sm-auto">
+                        <label class="nameTag" for="lname">I AM</label>
+                        <br>
+                        <input class="mobileInputName" type="text" id="lname" name="lname">
+                    </div>
+            </div>
+               
+                <div class="row align-self-center justify-content-center"> 
+                    <div class="col-sm-auto">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="mobileNameTag1">Just how do you want to be called</div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="mobileNameCount1">0/20</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="textContainer">
+                                        <div id="textBelow3">who or what or where</div>
+                                        <div id="textBelow4">0/20</div>
+                                    </div>
+                                <div class="row align-self-center justify-content-center">
+                            
+                    </div> -->
+                <div class="row align-self-center justify-content-center">
+                    <div class="col-sm-auto">
+                        <input class="mobileNameSubmit" id="mobileNameSubmit" type="submit" name="submit" value="POST">
+                        </form>
+                    </div>    
+                
+                </div>
+            
         </div> 
     </body>
 </html>
