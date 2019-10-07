@@ -39,6 +39,22 @@ if($test = $conn->query($sql)){
   echo "ERROR : $sql. ". mysql_error($conn);
 }
 
+if(isset($_POST['submit'])){
+  echo $_POST["fname"];
+  echo $_POST["lname"];
+  echo $quote;
+  echo $color;
+  $quote = $_SESSION['quote'];
+  $color = $_SESSION['color'];
+
+  $sql = "INSERT INTO users (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
+  if($conn->query($sql) === TRUE){
+    echo "Successfully";
+  }else{
+    echo "Error: ",$conn->error;
+  }
+}
+
 $sql2 = "SELECT * FROM users";
 
 // $result =  or trigger_error('QUERY FAIL : $sql - ERROR : '.mysqli_error(),E_USER_ERROR);
@@ -57,7 +73,7 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 
 
-$conn->close();
+// $conn->close();
 
 //mysqli_close($conn);
 ?>
@@ -187,7 +203,7 @@ $conn->close();
             <!-- Last Row -->
             <div class="row">
               <div class="col-3 header col-s-3">
-                <a href="wall.php"><h6 class="text">All message</h6></a>
+                <a href="shuffle.php"><h6 class="text">All message</h6></a>
               </div>
 
             </div>
