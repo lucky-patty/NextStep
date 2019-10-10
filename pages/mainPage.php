@@ -1,7 +1,5 @@
 <?php
 
-// init_set("display_errors","1");
-// error_reporting(E_ALL);
 $servername = "localhost";
 // $username = "root";
 // $password = "root";
@@ -13,9 +11,6 @@ $password = "1q2w3e4r!!!";
 $databasname = "quhtoqvmszhemqka_nextstep";
 // $port = 8889;
 // $port = 3307;
-// Create connection
-// $conn = mysqli_connect($servername,$username,$password,$databasename)
-// or die("Error Connection: ".mysqli_connect_error());
 
 
 $conn = new mysqli($servername,$username,$password,$databasename);
@@ -25,36 +20,31 @@ $conn = new mysqli($servername,$username,$password,$databasename);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}else{
-  // echo 'login successfully';
 }
+
 mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
-if($test = $conn->query($sql)){
-  // echo 'IT WORK!';
-  $row = $test->fetch_row();
-  // printf('Default db is %s . \n',$row[0]);
-}else{
-  // echo 'SOME SHIT HAPPEN THAT WE DON"T KNOW';
-  echo "ERROR : $sql. ". mysql_error($conn);
+
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
 }
 
 if(isset($_POST['submit'])){
-  echo $_POST["fname"];
-  echo $_POST["lname"];
-  echo $quote;
-  echo $color;
+  // echo $_POST["fname"];
+  // echo $_POST["lname"];
+  // echo $quote;
+  // echo $color;
   $quote = $_SESSION['quote'];
   $color = $_SESSION['color'];
 
-  $sql = "INSERT INTO users (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
+  $sql = "INSERT INTO `users` (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
   if($conn->query($sql) === TRUE){
-    echo "Successfully";
+    // echo "Successfully";
   }else{
     echo "Error: ",$conn->error;
   }
 }
 
-$sql2 = "SELECT * FROM users";
+$sql2 = "SELECT * FROM `users`";
 
 // $result =  or trigger_error('QUERY FAIL : $sql - ERROR : '.mysqli_error(),E_USER_ERROR);
 
@@ -65,10 +55,6 @@ if($result === FALSE){
   die(mysql_error($conn));
 }else{
   // printf('IT WORK SHOW : %d \n',$result->num_rows);
-}
-
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
 }
 
 
