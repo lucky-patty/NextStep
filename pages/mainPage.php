@@ -29,7 +29,6 @@ if ($conn->connect_error) {
   // echo 'login successfully';
 }
 mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
-$sql = "SELECT DATABASE()";
 if($test = $conn->query($sql)){
   // echo 'IT WORK!';
   $row = $test->fetch_row();
