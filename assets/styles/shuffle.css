@@ -149,6 +149,13 @@
     font-weight: lighter;
     margin-top: 50px;
     letter-spacing: 3px;
-    padding-left: 600px;
+    /* padding-left: 600px; */
+    text-align: center;
 }
 
+.shuffle_div{
+    width: 1300px;
+    height: 300px;
+    border: 3px solid transparent;
+    top: 450px;
+}

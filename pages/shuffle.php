@@ -74,12 +74,14 @@ if($result === FALSE){
         echo $row['title'];
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
         echo '<h5 class="shuffle_darkblue">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
         echo '<img class="shuffle" src="../assets/shuffle_darkblue.png">';
+        echo '</div>';
 
       }else if($row['color'] == 2){
         echo '<body class="twoBg">';
@@ -100,12 +102,14 @@ if($result === FALSE){
         echo $row['title'];
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
         echo '<h5 class="shuffle_pink">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
         echo '<img class="shuffle" src="../assets/shuffle_pink.png">';
+        echo '</div>';
 
       }else if($row['color'] == 3){
         echo '<body class="threeBg">';
@@ -128,12 +132,14 @@ if($result === FALSE){
 
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
         echo '<h5 class="shuffle_white">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
         echo '<img class="shuffle" src="../assets/shuffle_white.png">';
+        echo '</div>';
       }else if($row['color'] == 4){
 
         echo '<body class="fourBg">';
@@ -153,12 +159,14 @@ if($result === FALSE){
         echo $row['title'];
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
         echo '<h5 class="shuffle_purple">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
         echo '<img class="shuffle" src="../assets/shuffle_purple.png">';
+        echo '</div>';
 
       }else if($row['color'] == 5){
         echo '<body class="fiveBg">';
@@ -176,12 +184,14 @@ if($result === FALSE){
         echo $row['title'];
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
         echo '<h5 class="shuffle_yellow">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
         echo '<img class="shuffle" src="../assets/shuffle_yellow.png">';
+        echo '</div>';
 
       }else if($row['color'] == 6){
         echo '<body class="sixBg">';
@@ -199,12 +209,14 @@ if($result === FALSE){
         echo $row['title'];
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
         echo '<h5 class="shuffle_sky">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
         echo '<img class="shuffle" src="../assets/shuffle_sky.png">';
+        echo '</div>';
       }else if($row['color'] == 7){
         echo '<body class="sevenBg">';
         echo '<div>';
@@ -221,12 +233,14 @@ if($result === FALSE){
         echo $row['title'];
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
-        echo '<h5 class="shuffle_pink">';
+        echo '<h5 class="shuffle_neonorange">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
-        echo '<img class="shuffle" src="../assets/shuffle_pink.png">';
+        echo '<img class="shuffle" src="../assets/shuffle_neonorange.png">';
+        echo '</div>';
       }
       else if($row['color'] == 8){
         echo '<body class="eigthBg">';
@@ -244,12 +258,14 @@ if($result === FALSE){
         echo $row['title'];
         echo '</h5>';
         echo '</div>';
+        echo '<div class="shuffle_div">';
         echo '<a href="shuffle.php">';
         echo '<h5 class="shuffle_neonorange">';
         echo 'SHOW ANOTHER';
         echo '</h5>';
         echo '</a>';
         echo '<img class="shuffle" src="../assets/shuffle_neonorange.png">';
+        echo '</div>';
       }
     }
     

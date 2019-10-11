@@ -278,6 +278,7 @@ h5.shuffle_sky{
   font-weight: lighter;
   margin-top: 50px;
   letter-spacing: 3px;
-  padding-left: 600px;
+  /* padding-left: 600px; */
+  text-align: center !important;
 }
 
