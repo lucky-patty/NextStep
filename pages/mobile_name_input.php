@@ -115,7 +115,7 @@ $_SESSION['color'] = $color;
                     </div> -->
                 <div class="row align-self-center justify-content-center">
                     <div class="col-sm-auto">
-                        <input class="mobileNameSubmit" id="mobileNameSubmit" type="submit" name="submit" value="POST">
+                        <input class="mobileNext" id="mobileNameSubmit" type="submit" name="submit" value="POST">
                         </form>
                     </div>    
                 

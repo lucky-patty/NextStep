@@ -54,14 +54,16 @@ src="jquery-3.4.1.min.js">
         <div class="row align-self-center justify-content-center">
             <!-- <div class="col-12 col-s-12 crafContent"> -->
                 <!-- <div id="head"> -->
-            <div class="col-sm-auto">
+            <!-- <div class="col-sm-auto">
                 <p class="mobilePleaceHolder">WRITE SOMETHING</p>
-            </div>
+            </div> -->
         </div>
 		<div class="row align-self-center justify-content-center">
             <div class="col-sm-auto">
 			<!-- <p><strong>Something to write about:</strong>What is gender Equality to you, personal experience, respond to sexual harassment, personal message to empower gender equality & why is gender equality important to you.</p> -->
  			    <form action="mobile_name_input.php" method="POST">
+                 <label class="nameTag" for="fname">WRITE SOMETHING</label>
+                    <br>
                  <textarea id="mobileCraftInput" name="subject" placeholder="Write something.."></textarea>
             </div>
 				<!-- <p><strong>Something to write about:</strong>What is gender Equality to you, personal experience, respond to sexual harassment, personal message to empower gender equality & why is gender equality important to you.</p> -->
