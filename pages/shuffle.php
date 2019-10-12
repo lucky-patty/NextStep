@@ -35,7 +35,6 @@ if($result === FALSE){
     <link rel="stylesheet" href="../assets/styles/shuffle.css">
     <link rel="stylesheet" href="../assets/styles/wall.css">
     <link rel="stylesheet" href="../assets/styles/nextstepmain.css">
-
   </head>
     <?php
 
