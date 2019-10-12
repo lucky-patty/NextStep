@@ -16,7 +16,7 @@ session_start();
 mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
 $_SESSION['quote'] = $_POST["subject"];
 // echo $_SESSION['quote'];
-$color = rand(1,8);
+$color = rand(1,7);
 // $test = $GLOBALS['quote'];
 $quote =  $_SESSION['quote'];
 $_SESSION['color'] = $color;

@@ -80,7 +80,7 @@ src="jquery-3.4.1.min.js">
 		</div>
 		<div class="row ">
             <div class="col-sm-auto">
-                <input id="mobileNext" type="submit" value="NEXT">
+                <input class="mobileNext" id="mobileNext" type="submit" value="NEXT">
             </div>
 		</div>
  		</form>

@@ -27,7 +27,7 @@
 	</a>
 	<div class="craftContainer">
 		    <div class="row">
-			<h2 id="craftTitlemain">Craft your message</h2>
+			<h2 class="craftTitlemain">Craft your message</h2>
 		    </div>
 
 		<div class="craftContent">

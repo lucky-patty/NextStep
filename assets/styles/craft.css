@@ -192,42 +192,42 @@ em{
     width: 100%;
   }
 
-#craftTitlemain{
-  padding-top: 70px;
-  padding-left: 130px;
-  padding-bottom: 30px;
-}
+  #craftTitlemain{
+    padding-top: 70px;
+    padding-left: 130px;
+    padding-bottom: 30px;
+  }
 
-#head{
-  font-family: 'Avenir', san-serif;
-  font-weight: lighter;
-  letter-spacing: 3px;
-  font-size: 12pt;
-  margin-top: 50px;
-  margin-left: -90px;
-  margin-bottom: -20px;
-}
+  #head{
+    font-family: 'Avenir', san-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: 12pt;
+    margin-top: 50px;
+    margin-left: -90px;
+    margin-bottom: -20px;
+  }
 
-#textBelow1{
-  font-family: 'Avenir', san-serif;
-  font-size: 6pt;
-  width: 40%;
-  text-align: left;
-  overflow: hidden;
-  margin-left: 98px;
-  margin-top: 3px;
-}
+  #textBelow1{
+    font-family: 'Avenir', san-serif;
+    font-size: 6pt;
+    width: 40%;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 98px;
+    margin-top: 3px;
+  }
 
-#textBelow2{
-  font-family: 'Avenir', san-serif;
-  font-size: 8pt;
-  margin-left: 75px;
-  width: 50%;
-  float: right;
-  overflow: hidden;
-  margin-top: -45px;
-  margin-right: -10px;
-}
+  #textBelow2{
+    font-family: 'Avenir', san-serif;
+    font-size: 8pt;
+    margin-left: 75px;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    margin-top: -45px;
+    margin-right: -10px;
+  }
 
 }
 
