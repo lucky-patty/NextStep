@@ -151,6 +151,48 @@ a{
   margin-right: 30px;
 }
 
+.thankyouAbout{
+	max-height: 50% !important;
+	max-width: 50% !important;
+	height: 50px;
+	margin-top: 15px;
+	/* padding-bottom: 15px; */
+}
+
+.thankyouContainer{
+	background-color: #F1F2F2;
+}
+.thankyouCard{
+	margin-top: 80px;
+}
+.thankyouHead{
+	margin-top: 35px;
+	font-weight: lighter;
+}
+
+.thankyouBody{
+	margin-top: 25px;
+	font-weight: lighter;
+	
+}
+
+.thankyouFooter{
+	font-family: 'Baskerville', serif;
+    font-size: 24px;
+	font-weight: lighter;
+	color: white;
+}
+
+.thankyouSubFooter{
+	font-family: 'Baskerville', serif;
+    font-size: 12px;
+	font-weight: lighter;
+	color: white;
+}
+
+.footerbackground{
+	background-color: #8E24FF !important;
+}
 
 /*
 #left{
