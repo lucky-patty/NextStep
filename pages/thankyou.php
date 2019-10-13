@@ -107,7 +107,7 @@ if(isset($_POST['submit'])){
                                     All message is link to laptop
                                 </h5>
                                 <p class="thankyouSubFooter">
-                                    NextStep is best vied on laptop screen.
+                                    NextStep is best viewd on laptop screen.
                                 </p>
                             </div>         
                         </div>
