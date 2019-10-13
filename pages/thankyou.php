@@ -6,43 +6,43 @@ $servername = "localhost";
 // $databasename = "nextstep";
 // $servername = "lalita.design:3307";
 
-// $username = "quhtoqvmszhemqka_nextstep";
-// $password = "1q2w3e4r!!!";
-// $databasname = "quhtoqvmszhemqka_nextstep";
+$username = "quhtoqvmszhemqka_nextstep";
+$password = "1q2w3e4r!!!";
+$databasname = "quhtoqvmszhemqka_nextstep";
 
 // Create connection
 
-// $conn = new mysqli($servername,$username,$password,$databasename);
-// // Check connection
-// if ($conn->connect_error) {
-//     die("Connection failed: " . $conn->connect_error);
-// }
+$conn = new mysqli($servername,$username,$password,$databasename);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
 // echo 'Connected to the database.<br>';
 
-// mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
+mysqli_select_db($conn,"quhtoqvmszhemqka_nextstep");
 // // $result = mysqli_query($conn,"SELECT * FROM users");
 // // mysql_select_db($databasename);
 
-// if (session_status() == PHP_SESSION_NONE) {
-//     session_start();
-// }
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
-// if(isset($_POST['submit'])){
-// //   echo $_POST["fname"];
-// //   echo $_POST["lname"];
-// //   echo $quote;
-// //   echo $color;
-//   $quote = $_SESSION['quote'];
-//   $color = $_SESSION['color'];
+if(isset($_POST['submit'])){
+//   echo $_POST["fname"];
+//   echo $_POST["lname"];
+//   echo $quote;
+//   echo $color;
+  $quote = $_SESSION['quote'];
+  $color = $_SESSION['color'];
 
-//   $sql = "INSERT INTO `users` (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
-//   if($conn->query($sql) === TRUE){
-//     // echo "Successfully";
-//   }else{
-//     // echo "Error: ",$conn->error;
-//   }
-// }
+  $sql = "INSERT INTO `users` (name,title,quote,color) VALUES ('".$_POST["fname"]."','".$_POST["lname"]."','".$quote."',$color)";
+  if($conn->query($sql) === TRUE){
+    // echo "Successfully";
+  }else{
+    // echo "Error: ",$conn->error;
+  }
+}
 
 ?>
 
@@ -104,10 +104,10 @@ $servername = "localhost";
                         <div class="row ">
                             <div class="col-sm">
                                 <h5 class="thankyouFooter">
-                                    Please proceed to room 6A
+                                    All message is link to laptop
                                 </h5>
                                 <p class="thankyouSubFooter">
-                                    For more information about NextStep
+                                    NextStep is best vied on laptop screen.
                                 </p>
                             </div>         
                         </div>

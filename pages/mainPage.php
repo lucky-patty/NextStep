@@ -92,28 +92,9 @@ if($result === FALSE){
                 <div class="carousel-item active">
                   <div class="d-block w-100 text-center">
                     <h1 class="quote">
-                      I experienced sexual harassment and it truamatise me, I scared
-                      to be judged as a bitch.
+                    Gender Equality to me is when all gender could stay together without overly demanding anything
                     </h1>
-                    <h5 class="text author">LALITA BANGKOK,TH</h5>
-                </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100 text-center">
-                    <h1 class="quote">
-                      I experienced something bad and it scare me, I hate being seen as
-                      a bitch.
-                    </h1>
-                    <h5 class="text author">WHO BANGKOK.TH</h5>
-                </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100 text-center">
-                    <h1 class="quote">
-                      "You got raped because you wearing something less so it your false!"
-                      I hate it!
-                    </h1>
-                    <h5 class="text author">NEEKO BANGKOK.TH</h5>
+                    <h5 class="text author">ANONYMOUS,THAILAND</h5>
                 </div>
                 </div>
                 
